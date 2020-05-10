@@ -66,8 +66,8 @@ var currentKeyword='';
 export default  function StickyHeadTable(args) {
   
   const classes = useStyles();
-  const [setPage] = React.useState(0);
-  const [rowsPerPage] = React.useState(10);
+  const [page, setPage] = React.useState(0);
+  const [rowsPerPage, setRowsPerPage] = React.useState(10);
   
   const handleChangePage = async (event, newPage) => {
     newPage--;
