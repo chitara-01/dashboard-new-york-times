@@ -1,0 +1,40 @@
+.text1 {
+    top: 298px;
+    left: 563px;
+    width: 1058px;
+    height: 203px;
+    text-align: center;
+    font: Bold 60px/71px Roboto;
+    letter-spacing: 0px;
+    color: #7B8C92;
+    opacity: 1;
+}
+
+.image1 {
+    width: 429px;
+    height: 365px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.article-section {
+    top: 212px;
+    left: 413px;
+    width: 1448px;
+    height: 534px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 8px 19px #B4B8BC29;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.chart-section {
+    top: 840px;
+    left: 413px;
+    width: 1448px;
+    height: 655px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 8px 19px #B4B8BC29;
+    border-radius: 8px;
+    opacity: 1;
+}

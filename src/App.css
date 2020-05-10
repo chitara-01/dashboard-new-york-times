@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*main page*/
+.MainPage{
+  height: 100vh;
+  width:100%;
+}
+
+/*top pane*/
+.top-bar{
+  height:12%;
+  background-color: #F6F8F8;
+}
+.logo-bar{
+  top: 32px;
+  width: 219px;
+  height: 45px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-color:#F6F8F8;
+  text-align: center;
+}
+.search-bar{
+  background-color:#F3F5F6;
+}
+
+.SearchForm{
+  height:100%
+}
+
+.SearchBox{
+  left: 413px;
+  width: 40%;
+  height: 35px;
+  background: #F8FAFB 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  margin-top:5vh;
+  margin-left:5vh;
+  font-size: 2vh;
+  padding:0.5%
+}
+.SubmitButton{
+  height:4vh;
+  width:10%;
+  padding:0.5%;
+  margin-left:3vh;
+  text-align: center;
+  font: Bold 90% Roboto;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  background: #4CA2FF 0% 0% no-repeat padding-box;
+  border-radius: 26px;
+}
+
+
+.SideBarTitles{
+  
+  left: -1px;
+  width: 100%;
+  height: 5vh;
+  background: #F6F8F8 0% 0% no-repeat padding-box;
+  opacity: 1;
+  font-weight: bold;
+  font: 'Medium 20px/70px Roboto';
+  border:none;
+}
+.SideBarTitles:hover{
+  
+  background-color:white;
+  color: #4CA2FF;
+}
+.SideBarTitles:focus{
+  
+  outline:none
+}
+
+/*bottom pane*/
+.bottom-layout{
+  height:88%;
+}
+.side-bar-layout{
+  height:100%;
+  background-color: #F6F8F8;
+}
+
+.content-layout{
+  height:100%;
+  background-color: #F3F5F6;
+}
+.table-content-layout{
+  height:50%;
+  background-color: #F3F5F6;
+}
+
+.graph-content-layout{
+  height:50%;
+  background-color: #F3F5F6;
+}
+
+
+.layout{
+  height:85%;
+  background-color: #61dafb;
+}
+.side-bar{
+  background-color: antiquewhite;
+}
+.main-content {
+  background-color: blue;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
